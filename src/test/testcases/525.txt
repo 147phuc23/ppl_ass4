@@ -1,0 +1,9 @@
+
+        void main()
+        { 
+            boolean list[2];
+            list[0] = !(list[1] = true);
+            putBool(list[0]);
+            putBool(!!list[1]);
+        }
+        

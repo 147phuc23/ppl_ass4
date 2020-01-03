@@ -1,0 +1,10 @@
+
+        void main()
+        {
+            int a;
+            a = 10;
+            putInt(200);
+            if (a==10) {return;}
+            putInt(100);
+        }
+        

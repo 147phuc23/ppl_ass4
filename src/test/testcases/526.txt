@@ -1,0 +1,9 @@
+
+        boolean a, b;
+        void main() {
+           putInt(1 * 2);
+           putInt(-2*-3);
+           putInt(1/2);
+           putInt(1/-2);
+        }
+        

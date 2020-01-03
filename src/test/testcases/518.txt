@@ -1,0 +1,12 @@
+
+        int c;
+        void add(int a) {
+            c = a + c;
+        }
+        void main()
+        {
+            c = 2;
+            add(10);
+            putInt(c);
+        }
+        

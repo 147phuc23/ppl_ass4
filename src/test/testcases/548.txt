@@ -1,0 +1,22 @@
+
+        int[] revertArray(int arr[], int size){
+            int i;
+            for (i=0; i<(size/2); i=i+1){
+                int c;
+                c = arr[i];
+                arr[i] = arr[size-1-i];
+                arr[size-1-i] = c; 
+            }
+            return arr;
+
+        }
+        void main() {
+            int arr[20];
+            int i;
+            for(i=0; i!=19; i=i+1){
+                arr[i] = i + 1;
+            }
+            arr = revertArray(arr,20);
+            putInt(arr[0]);
+        }
+        

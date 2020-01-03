@@ -1,0 +1,14 @@
+
+        int a;
+        float foo(float a){
+            return a + 1.4e2;
+        }
+        void main()
+        {
+            a = 9;
+            putInt(a);
+            float a;
+            a = 10;
+            putFloat(1 + foo(foo(a)));
+        }
+        

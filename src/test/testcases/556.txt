@@ -1,0 +1,12 @@
+
+            void foo(int a[]) {
+                putInt(a[0]);
+            }
+            void main() {
+                int a[4];
+                a[0] = 99;
+                foo(a);
+                if (1<=1) return;
+                else putInt(1);
+            }
+        

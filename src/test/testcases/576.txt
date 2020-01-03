@@ -1,0 +1,12 @@
+
+        boolean[] foo()
+        {
+            boolean a[1];
+            a[0] = true;
+            return a;
+        }
+        void main()
+        {
+            putBool(foo()[0]);   
+        }
+        

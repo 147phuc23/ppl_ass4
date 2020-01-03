@@ -1,0 +1,9 @@
+
+        int f(int value) {
+            return value;
+            return value;
+        }
+        void main() {
+            putInt(f(1));
+        }
+        

@@ -1,0 +1,6 @@
+
+        void main() {
+            putInt(200%2);
+            putInt(200%17);
+        }
+        

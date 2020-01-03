@@ -1,0 +1,14 @@
+
+        int positive(int a) {
+            if (a>=0) return true;
+            return false;
+        }
+        void main() {
+            int a;
+            a = -20;
+            putBool(positive(a));
+            if (!positive(a)) a = -a;
+            putInt(a);
+            return;
+        }
+        

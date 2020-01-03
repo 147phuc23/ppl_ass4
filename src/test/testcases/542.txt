@@ -1,0 +1,16 @@
+
+        void main() {
+            if (true) 
+                if(true){ 
+                    putInt(2);
+
+                    if (true) {
+                        putInt(3);
+                    } else {
+                        putBool(false);
+                    }
+                }
+            else 
+                putString("hello");
+        }
+        

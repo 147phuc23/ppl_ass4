@@ -1,0 +1,15 @@
+
+        float a;
+        int b;
+        int getFloatI(){
+            return b;
+        }
+        int foo(int i) {
+            return i + b;
+        }
+        void main(){
+            putFloat(getFloatI());
+            putInt(foo(2));
+        }
+
+        

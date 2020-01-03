@@ -1,0 +1,11 @@
+
+        int a;
+        int foo() {
+            return a+1;
+        }
+        void main()
+        { 
+            a = 1;
+            putInt(foo());
+        }
+        

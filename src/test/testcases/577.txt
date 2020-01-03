@@ -1,0 +1,12 @@
+
+        string[] foo()
+        {
+            string a[1];
+            a[0] = "hi";
+            return a;
+        }
+        void main()
+        {
+            putString(foo()[0]);   
+        }
+        

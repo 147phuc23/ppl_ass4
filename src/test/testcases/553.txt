@@ -1,0 +1,9 @@
+
+            void main() {
+                int i;
+                for (i = 0; true; i = i +1) {
+                    if (i == 5) { break; }
+                    putInt(i);
+                }
+            }
+        

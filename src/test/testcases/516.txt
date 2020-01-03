@@ -1,0 +1,12 @@
+
+        int foo(int i) {
+            return foo1(i);
+        }
+        void main()
+        { 
+            putInt(foo(2));
+        }
+        int foo1(int a){
+            return a-2;
+        }
+        

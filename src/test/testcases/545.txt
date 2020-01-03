@@ -1,0 +1,9 @@
+
+        void main() {
+            int a;
+            a = -2;
+            if (a>2 || false) return;
+            putInt(a);
+            return;
+        }
+        

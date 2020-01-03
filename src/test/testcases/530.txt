@@ -1,0 +1,10 @@
+
+        void main() {
+           int a, b;
+           {
+           b = a = 3 + 7 /3;
+           putIntLn(a);
+           putIntLn(b);
+           }
+        }
+        

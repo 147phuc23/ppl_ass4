@@ -1,0 +1,10 @@
+
+        int a;
+        float b,_init;
+        void main()
+        {
+            a = -12;
+            _init = 19;
+            putInt(a);
+        }
+        

@@ -1,0 +1,8 @@
+
+        int a[1]; 
+        float b[1];
+        void main() {
+            b[0] = a[0] = 1;
+            putFloat(b[0]);
+        }
+        

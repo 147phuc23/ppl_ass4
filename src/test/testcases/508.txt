@@ -1,0 +1,14 @@
+
+         int index;
+        float foo(int a){
+            return 1.0 + 1;
+        }
+        void main()
+        {
+            int a;
+            a = 2;
+            index = 1;
+            index = index + 3;
+            putFloat(index * foo(a) + 1);
+        }
+        

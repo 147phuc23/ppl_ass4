@@ -1,0 +1,22 @@
+
+        void main() {
+            if (true) {
+                    int temp;
+                    temp = 3;
+                    putString("Hello");
+                }
+                if (false) {
+                    float value;
+                    value = 2;
+                    putString("Hi");
+                }
+                if (false) {
+                    putString("false");
+                } else {
+                    string s;
+                    s = "true";
+                    putString(s);
+                }
+            }
+        }
+        

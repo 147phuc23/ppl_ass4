@@ -1,0 +1,14 @@
+
+            int foo_1() {
+                return 1;
+            }
+            void foo(boolean s, boolean arr[]) {
+                putBool(s);
+                putBool(arr[0]);
+            } 
+            void main() {
+                boolean arr[1];
+                arr[0] = false;
+                foo(arr[0], arr);
+            }
+        

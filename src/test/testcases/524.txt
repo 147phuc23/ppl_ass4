@@ -1,0 +1,11 @@
+
+        boolean get(boolean c[]){
+            return c[0] && c[1];
+        }
+        void main()
+        { 
+            boolean list[2];
+            list[0] = list[1] = true;
+            putBool(get(list));
+        }
+        

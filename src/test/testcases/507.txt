@@ -1,0 +1,12 @@
+
+        int a;
+        float foo(int a){
+            return a + 1;
+        }
+        void main()
+        {
+            int a ;
+            a= -10;
+            putFloat(1 + foo(a));
+        }
+        

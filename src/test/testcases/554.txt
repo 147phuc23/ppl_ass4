@@ -1,0 +1,11 @@
+
+            void main() {
+                int i;
+                i = 0;
+                do 
+                    i = i + 1;
+                    putInt(i);
+                    if (i == 4) break;
+                while true;
+            }
+        

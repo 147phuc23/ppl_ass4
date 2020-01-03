@@ -1,0 +1,10 @@
+
+        void main()
+        {
+            int a;
+            a = 0;
+            boolean b;
+            b = (a == 0) || (1/a==0) || (true);
+            putBool(b); 
+        }
+        

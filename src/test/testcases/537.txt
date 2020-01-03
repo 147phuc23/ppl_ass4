@@ -1,0 +1,7 @@
+
+        void main() {
+            boolean v;
+            v = false;
+            putBool( v && (1/0-10));
+        }
+        

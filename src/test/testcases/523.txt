@@ -1,0 +1,12 @@
+
+        void main()
+        { 
+            boolean a,b;
+            a = true;
+            b = false;
+            putBool(a || b);
+            putBool(a && b);
+            putBool( (a||false) && (b &&true) );
+            putBool( (a||false) || (b &&true) );
+        }
+        

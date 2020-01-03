@@ -1,0 +1,7 @@
+
+        int a;
+        void main() {
+           a = 4;
+           putInt(a);
+        }
+        

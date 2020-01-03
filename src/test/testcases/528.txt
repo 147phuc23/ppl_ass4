@@ -1,0 +1,8 @@
+
+        void main() {
+           putFloat(1 * 2.0);
+           putFloat(-2.0*-3);
+           putFloat(1/2.0);
+           putFloat(1.0/-2);
+        }
+        

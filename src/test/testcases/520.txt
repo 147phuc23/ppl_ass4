@@ -1,0 +1,8 @@
+
+        int a;
+        void main()
+        { 
+            a = 19;
+            putInt( a*1/a + 2 + 3);
+        }
+        

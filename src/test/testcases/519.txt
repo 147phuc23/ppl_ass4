@@ -1,0 +1,8 @@
+
+        void main()
+        { 
+            putInt(1+2+3);
+            putInt(1+2-3);
+            putInt((1+2)-(-3));
+        }
+        

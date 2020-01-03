@@ -1,0 +1,16 @@
+
+        int foo() {
+            {
+                putInt(1);
+                {
+                    putFloat(2);    
+                }
+                putString("abc");
+            }
+            return 1;
+        }
+        void main()
+        { 
+            foo();
+        }
+        

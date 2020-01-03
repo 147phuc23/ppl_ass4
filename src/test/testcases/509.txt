@@ -1,0 +1,11 @@
+
+        string c;
+        void main()
+        {
+            putFloat(1.1+2);
+            putInt(1);
+            putString("abc");
+            c = "LOL";
+            putString(c);
+        }
+        

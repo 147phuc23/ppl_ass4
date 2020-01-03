@@ -1,0 +1,10 @@
+
+        int a;
+        void main() {
+            float b;
+            a = 4;
+            b = 4.5;
+            putInt(a);
+            putFloat(b);
+        }
+        

@@ -1,0 +1,8 @@
+
+            boolean a[10];
+            void main() {
+                a[0] = true;
+                a[1] = a[0] || (a[2] && a[3]);
+                putBool(a[1]);
+            }
+        

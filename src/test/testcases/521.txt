@@ -1,0 +1,7 @@
+
+        void main()
+        { 
+            putString("hello world");
+            putFloat(3/2 + 1);
+        }
+        

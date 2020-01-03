@@ -1,0 +1,23 @@
+
+        void swap(int a, int b){
+            int c;
+            c = a;
+            a = b;
+            b = c;
+        }
+        void main() {
+            int a;
+            int i;
+            int b;
+            b = 1;
+            a = i = 2;
+            for(i=0; i<=2; i=i+1){
+                if (i%2==0) {
+                    swap(a,b);
+                    a = a+1;
+                }
+                else return;
+            }
+            putInt(a);
+        }
+        

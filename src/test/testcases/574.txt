@@ -1,0 +1,11 @@
+
+        void max(int a[])
+        {
+            int max;
+            if (1 < 2) max =a[0];
+        }
+        void main(){
+            
+            putInt(200);
+        }
+        

@@ -1,0 +1,8 @@
+
+            void main() {
+                boolean a[3];
+                a[0] = true;
+                putBool(a[0]);
+                putBool(12);
+            }
+        

@@ -1,0 +1,10 @@
+
+        void main()
+        {
+            putFloat(foo(1,1.5,10,10+1));
+        }
+        float foo(int a,float b,int c,int d)
+        {
+            return a+b+c+d;
+        }
+        
